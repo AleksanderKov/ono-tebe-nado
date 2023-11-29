@@ -146,22 +146,27 @@ body {
     flex-grow: 1;
 }
 .card-link {
-    text-underline-offset: 3px;
+    text-decoration: none;
     color: #fff;
+}
+.card-link p {
+    text-decoration: none;
 }
 .card {
     position: relative;
     z-index: 2;
-    height: 450px;
+    min-height: 450px;
     display: grid;
     grid-template-rows: 1fr;
 }
 .card__title {
     color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
     text-transform: uppercase;
     font-size: 22px;
     line-height: 120%;
-    padding: 51px 42px 0px;
+    padding: 51px 40px 0px;
     position: relative;
     z-index: 2;
 }
